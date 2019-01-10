@@ -1,0 +1,13 @@
+{
+    "pages": [
+        "cover-process-control/cover-process-control",
+        "cover_select/cover_select",
+        "cover_input/cover_input"    
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "navigationBarTitleText": "小天才WiFi采集器",
+        "navigationBarTextStyle": "black"
+    }
+}

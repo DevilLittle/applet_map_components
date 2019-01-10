@@ -1,0 +1,42 @@
+.page-section{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.center-point {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: calc(50% - 15px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cover-select{
+    background-color: #ffffff;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5rpx;
+    /* height: 32px;
+    line-height: 32px; */
+    padding: 0 15rpx;
+
+}
+.selected{
+    line-height: 40px;
+
+}
+ .select-list {
+    overflow-y: scroll;
+    max-height: 120px;
+}
+
+.select-item{
+    line-height: 30px;
+    
+}
+.select-item:hover{
+    background-color: #f2f2f2;
+}

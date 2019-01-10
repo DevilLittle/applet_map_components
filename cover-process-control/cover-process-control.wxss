@@ -1,0 +1,51 @@
+.page-section{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.center-point {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: calc(50% - 15px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cover-process-control{
+    width: 80%;
+    /* height: 100px; */
+    padding: 10rpx 20rpx;
+    background-color: #ffffff;
+    position: relative;
+    left: 50%;
+    top:30%;
+    transform: translateX(-50%);
+}
+
+.control-wrapper{
+    height: 100%;
+}
+
+.row{
+    width: 100%;
+    font-size: 14px;
+}
+
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+}
+.icon .active{
+    background-color: red;
+}
+
+.text{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10rpx;
+}
