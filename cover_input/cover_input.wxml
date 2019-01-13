@@ -1,9 +1,10 @@
+
 <view class="page-body">
     <view class="page-section">
         <map id="myMap" style="width: 100%; height: 500px;" latitude="{{latitude}}" scale="18" longitude="{{longitude}}" show-location>
             <cover-image class="center-point" src="/image/location-red.png"></cover-image>
             <!-- cover-input伪代码实现 -->
-            <cover-view class='cover-process-control' bindtap='tapInput'>
+            <cover-view class='cover-input' bindtap='tapInput'>
                 <cover-view class='text'>{{inputInfo}}</cover-view>
                 <input class='input' value='{{inputModel}}' focus='{{inputFocus}}' bindblur='blurInput'></input>
             </cover-view>

@@ -19,8 +19,6 @@
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5rpx;
-    /* height: 32px;
-    line-height: 32px; */
     padding: 0 15rpx;
 
 }
